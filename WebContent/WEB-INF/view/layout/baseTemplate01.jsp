@@ -10,11 +10,9 @@
 	<div style="padding-left: 10px">
 		<tiles:insertAttribute name="top" />
 	</div>
-	<!-- 
 	<div style="padding-left: 10px">
 		<tiles:insertAttribute name="menu" />
 	</div>
-	 -->
 	<div style="height: 680px; padding-left: 10px">
 		<tiles:insertAttribute name="center" />
 	</div>

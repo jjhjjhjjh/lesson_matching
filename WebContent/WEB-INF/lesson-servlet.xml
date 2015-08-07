@@ -11,7 +11,7 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
 		
-<context:component-scan base-package="org.jjh.*"/>
+<context:component-scan base-package="org.jjh.st.search.controller"/>
 
 <!-- 뷰 리졸버 -->
 	<bean id="default"

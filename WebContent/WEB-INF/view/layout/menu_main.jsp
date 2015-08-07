@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<style>
-.colLine
+<!--<style>
+ .colLine
 {
  float:left;
  border:solid 1px #cccccc;
@@ -43,5 +43,5 @@
    마이페이지
   </div>
  </div>
- </div>
+ </div> -->
 </body>

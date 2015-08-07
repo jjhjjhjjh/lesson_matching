@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class IndexController {
 
-	@RequestMapping(value = "index.it", method = RequestMethod.GET)
+	@RequestMapping(value = "/index.it", method = RequestMethod.GET)
 	public ModelAndView controll() {
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("base");

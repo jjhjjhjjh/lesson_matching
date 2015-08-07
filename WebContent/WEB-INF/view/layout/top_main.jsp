@@ -1,8 +1,9 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <html>
 <body>
-	<div style="background-color: #FAE0D4; height: 130px">
+	<div style="background-color: #FAE0D4; height: 80px">
 	<br/>
 	<h2>과외 매칭 사이트</h2>
 		<form action="" method="post">
@@ -13,4 +14,5 @@
 		</form>
 	</div>
 </body>
+>>>>>>> branch 'master' of https://github.com/jjhjjhjjh/lesson_matching.git
 </html>
