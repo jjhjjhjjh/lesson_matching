@@ -4,7 +4,7 @@
 <html>
 
 <body>
-	<div style="background-color: #FAE0D4; height: 80px">
+	<div style="background-color: #FAE0D4; height: 130px">
 	<br/>
 	<h2>과외 매칭 사이트</h2>
 		<form action="" method="post">
