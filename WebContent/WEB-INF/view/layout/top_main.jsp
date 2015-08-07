@@ -14,5 +14,4 @@
 		</form>
 	</div>
 </body>
->>>>>>> branch 'master' of https://github.com/jjhjjhjjh/lesson_matching.git
 </html>
