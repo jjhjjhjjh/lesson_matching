@@ -6,11 +6,25 @@
 	<definition name="base" template="/WEB-INF/view/layout/baseTemplate01.jsp">
 		<put-attribute name="top" value="/WEB-INF/view/layout/top_main.jsp" />
 		<put-attribute name="menu" value="/WEB-INF/view/layout/menu_main.jsp" />
-		<put-attribute name="center" value="/WEB-INF/view/layout/center_main.jsp" />
+		<put-attribute name="bottom"
+			value="/WEB-INF/view/layout/bottom_main.jsp" />
+	</definition>
+	<definition name="mypageBase" template="/WEB-INF/view/mypage/template.jsp">
+		<put-attribute name="top" value="/WEB-INF/view/layout/top_main.jsp" />
+		<put-attribute name="aside" value="/WEB-INF/view/mypage/asidemenu.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/view/layout/menu_main.jsp" />
 		<put-attribute name="bottom" value="/WEB-INF/view/layout/bottom_main.jsp" />
 	</definition>
-
-	<definition name="tiles:*.*" extends="base">
+	<definition name="base:*.*" extends="base">
 		<put-attribute name="center" value="/WEB-INF/view/{1}/{2}.jsp" />
+	</definition>
+	<definition name="mybase:*.*" extends="mypageBase">
+		<put-attribute name="content" value="/WEB-INF/view/{1}/{2}.jsp" />
+	</definition>
+	<definition name="base:*" extends="base">
+		<put-attribute name="center" value="/WEB-INF/view/{1}.jsp" />
+	</definition>
+	<definition name="mybase:*" extends="mypageBase">
+		<put-attribute name="content" value="/WEB-INF/view/mypage/{1}.jsp" />
 	</definition>
 </tiles-definitions>

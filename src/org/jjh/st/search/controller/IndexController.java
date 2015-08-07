@@ -11,7 +11,7 @@ public class IndexController {
 	@RequestMapping(value = "/index.it", method = RequestMethod.GET)
 	public ModelAndView controll() {
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("base");
+		mav.setViewName("base:layout.center_main");
 		return mav;
 	}
 
